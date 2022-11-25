@@ -43,7 +43,7 @@ const generateAction = async (req, res) => {
     prompt: `${secondPrompt}`,
     // I set a higher temperature for this one.
     temperature: 0.85,
-    max_tokens: 1250,
+    max_tokens: 250,
   });
   
   // Get the output
